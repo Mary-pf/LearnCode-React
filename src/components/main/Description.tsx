@@ -4,11 +4,11 @@ const Description = () => {
         <div className="container">
             <div className="row g-4 align-items-center pt-5 ps-4 pb-5">
                 <div className="col-md-4 text-white" style={{paddingLeft: "4rem"}}>
-                    <h4 className="fw-bold">از گوشه و اطراف دنیای برنامه‌نویسی</h4>
+                    <h4 className="fw-bold mb-2">از گوشه و اطراف دنیای برنامه‌نویسی</h4>
                     <p className="fw-bold">نوشتن کار جالبیه که از هزاران سال همراه ما بوده و کمک کرده تا همیشه به روز باشیم،
                         ما در لرن کد فضای رو به شکلی آماده کردیم تا شما بتونید ایده‌ها و مطالب جالب حوزه برنامه‌نویسی رو
                         در اختیار هزاران برنامه‌نویس عضو لرن کد قرار بدید.</p>
-                    <button className="btn btn-primary mb-4">مشاهده همه مطالب</button>
+                    <button className="btn btn-primary mt-4">مشاهده همه مطالب</button>
                 </div>
                 <div className="col-md-8">
                     <div className="row" style={{paddingRight: "4rem"}}>

@@ -5,7 +5,7 @@ const Section = () => {
             <div className="row align-items-center">
                 <div className="text col-md-6">
                     <h2 className="fw-bold">داستان برنامه‌نویس شدنت از اینجا شروع میشه!</h2>
-                    <h6 className="fw-bold">یادگیری برنامه‌نویسی آرزو نیست، فقط نیاز هست، تلاش و تمرین داشته باشید، بقیه‌اش
+                    <h6 className="pt-3">یادگیری برنامه‌نویسی آرزو نیست، فقط نیاز هست، تلاش و تمرین داشته باشید، بقیه‌اش
                         با لرن کد</h6>
                 </div>
                 <div className="image col-md-6 mt-5">

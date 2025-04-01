@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-light pt-5 pb-5 mx-2">
       <div className="container">
         <div className="row ps-1">
           <div className="col-md-4">
-            <h4 className="fw-bold">درباره لرن کد</h4>
-            <p className="text-muted">
+            <h4 className="fw-bold mb-2">درباره لرن کد</h4>
+            <p className="text-muted mb-4">
               لرن کد یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح
               ایران است که همیشه تلاش کرده تا بتواند جدیدترین و بروزترین مقالات
               و دوره‌های آموزشی را در اختیار علاقه‌مندان ایرانی قرار دهد. تبدیل
@@ -15,64 +17,63 @@ const Footer = () => {
           <div className="col-md-7 offset-md-1">
             <div className="row">
               <div className="col-md-4">
-                <h6 className="fw-bold footer-header w-75">بخش های وبسایت</h6>
+                <h6 className="fw-bold footer-header w-75 mb-2">بخش های وبسایت</h6>
                 <ul className="text-primary">
                   <li>
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       قوانین و مقررات
-                    </a>
+                    </Link>
                   </li>
                   <li className="my-2">
-                    <a className="footer-link" href="#لرن کد نامه">
-                      <span className="badge bg-danger ms-2">جدید</span>
-                    </a>
+                    <Link className="footer-link" to="#لرن کد نامه">
+                    </Link>
                   </li>
                   <li>
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       مدرسان لرن کد
-                    </a>
+                    </Link>
                   </li>
                   <li className="mt-2">
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       درباره ما
-                    </a>
+                    </Link>
                   </li>
                   <li className="mt-2">
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       ارتباط با ما
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="col-md-4">
-                <h6 className="fw-bold footer-header w-75">
+                <h6 className="fw-bold footer-header w-75 mb-2">
                   محبوب‌ترین آموزش‌ها
                 </h6>
                 <ul className="text-primary">
                   <li>
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       آموزش جاوا اسکریپت
-                    </a>
+                    </Link>
                   </li>
                   <li className="my-2">
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       آموزش لاراول
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       آموزش پایتون
-                    </a>
+                    </Link>
                   </li>
                   <li className="mt-2">
-                    <a className="footer-link" href="#">
+                    <Link className="footer-link" to="#">
                       آموزش react
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="col-md-4">
-                <h6 className="fw-bold footer-header w-75">ارتباط با ما</h6>
+                <h6 className="fw-bold footer-header w-75 mb-2">ارتباط با ما</h6>
                 <ul className="list-unstyled text-muted">
                   <li className="d-flex items-center justify-content-evenly">
                     <span className="pt-1 pe-1">
@@ -95,13 +96,13 @@ const Footer = () => {
                           fill="currentColor"
                         ></path>
                       </svg>
-                      <a className="footer-link" href="#">
+                      <Link className="footer-link me-2" to="/">
                         ایمیل:
-                      </a>
+                      </Link>
                     </span>
-                    <a className="pt-1" href="#">
+                    <Link className="pt-1" to="#">
                       info@LearnCode
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
